@@ -10,12 +10,19 @@
   padding: 0;
 }
 
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html, body { height: 100%; }
 
 body {
   background-color: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
+}
 
 .container {
   margin: 0 auto;
