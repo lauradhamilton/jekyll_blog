@@ -12,13 +12,18 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+        <!-- Normalize -->
+        <link rel="stylesheet" href="/css/normalize.css">
+
     </head>
     <body>
 
         <div class="site">
           {% include header.html %}
 
-          {{ content }}
+          <div class="container">
+            {{ content }}
+          </div>
 
           <div class="footer">
             <div class="contact">
